@@ -12,13 +12,13 @@ html {
 
 ::selection {
     color: #000; 
-    background: #ff0;
+    background: green;
 }
 
 h1 {
     font-weight: normal;
     margin: auto;
-    background: yellow;
+    background: green;
     line-height: 2.5em;
 }
 
@@ -45,13 +45,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:silver;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: silver;
     text-decoration: none;
 }
 
