@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>Betelhem</title>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@10&display=swap" rel="stylesheet">
+  <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="css/portal.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/forms.css" />
+ </head>
+ <body>
+     <header>
+     <h1><class="logo">Betelhem</h1>
+     <h2>Hello!</h2>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="https://docs.google.com/document/d/1M5SUQkI047dKzZXZ5HbNJgX_wDG_REvxjK0t8-M4jmQ/edit" target="_blank">Biography</a>
+            <a href="https://docs.google.com/document/d/1BETTpQtSf9zoLtM3Y7woWtmdB95d9woSGTCX_5YG29M/edit" target="_blank">Portal</a>
+            <a href="https://docs.google.com/document/d/1tBDFHYJJZuo_E73Rzfir_cPnIEPotg_8/edit?usp=sharing&ouid=115386752817831191549&rtpof=true&sd=true" target ="_blank">Resume</a>
+            <a href="https://github.com/betelhem345"target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/betelhem-shenkut-a17386220"target="_blank">Linkedin</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </nav>
+     </header>
+     
+   <main class="wrapper">
+        <picture class="profile">
+            <source media="(min-width: 1200px)" srcset="C:\Users\betel\Downloads\betelhem.jpg">
+            <source media="(min-width: 501px)" srcset="images\picture-2.jpg">
+            <img src="images\picture-3.jpg" alt="That's me!" />
+        </picture>   
+       <h2 class="subheader">Welcome to my page!</h2>
+
+       <p>Follow me on my journey to becoming a well rounded professional.</p>
+
+      <p>Let's all help eachother and grow together to create a better tomorrow for everyone.</p>
+
+      
+
+     <footer>
+
+      <p>Page Origin</p>
+
+      <p>The HTML/CSS comes from Betelhem's Web Fundamentals class as taught at Seattle Central.</p>
+
+      <p><small>&copy; 2023 by 
+          Betelhem, All Rights Reserved ~ 
+          <a id="html-checker" href="#">Check HTML</a> ~ 
+          <a id="css-checker" href="#">Check CSS</a></small>
+     </p>
+    </footer>
+  </main>
+     
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+    <script>
+    //https://tinyurl.com/dynamic-html-checker
+    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+      
+    document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
+    
+    //manages mobile nav 
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+ </script>
+     
+ </body>
+</html>
